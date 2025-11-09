@@ -7,15 +7,15 @@ Original file is located at
     https://colab.research.google.com/drive/1ia4TjVfbLKhgx8VGG9ByMqx86QZc1_cs
 """
 
-!pip install streamlit plotly openpyxl pandas
+# !pip install streamlit plotly openpyxl pandas
 
-!pip install streamlit plotly openpyxl pandas
+# !pip install streamlit plotly openpyxl pandas
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile perola_negra_app.py
-# import streamlit as st
-# import pandas as pd
-# import plotly.express as px
+import streamlit as st
+import pandas as pd 
+import plotly.express as px
 # import os
 # 
 # st.set_page_config(page_title="💎 Pérola Negra - Bot Analítico", layout="wide")
@@ -70,15 +70,15 @@ Original file is located at
 #                                                                                                                                                             else:
 #                                                                                                                                                                 st.info("📄 Envie uma planilha ou clique em 'Usar dados Alpha Pet Insights' para começar.")
 
-! streamlit run /content/perola_negra_app.py & !npx localtunnel --port 8501
+# !streamlit run /content/perola_negra_app.py & !npx localtunnel --port 8501
 
-!apt-get install nodejs npm -y
+# !apt-get install nodejs npm -y
 !npm install -g localtunnel
 
-!streamlit run /content/perola_negra_app.py &
+# !streamlit run /content/perola_negra_app.py &
 !npx localtunnel --port 8501
 
-!streamlit run /content/perola_negra_app.py &
+# !streamlit run /content/perola_negra_app.py &
 !npx localtunnel --port 8501
 
 # Reinstala o LocalTunnel (garante versão correta)
@@ -90,10 +90,10 @@ Original file is located at
 # Cria o novo túnel e mostra a URL
 !npx localtunnel --port 8501
 
-!pip install pyngrok
+# !pip install pyngrok
 from pyngrok import ngrok
 
-!streamlit run "perola_negra_app.py" &
+# !streamlit run "perola_negra_app.py" &
 
 # cria túnel seguro com ngrok
 public_url = ngrok.connect(8501)
