@@ -1,4 +1,6 @@
-steamlit
+streamlit
 pandas
+plotly
 google-generativeai
 matplotlib
+openpyxl
