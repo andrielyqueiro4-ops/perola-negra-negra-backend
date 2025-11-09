@@ -1,0 +1,7 @@
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+
+st.title("💎 Pérola Negra - Bot Analítico")
+
+st.write("Aplicação carregada com sucesso! 🚀")
