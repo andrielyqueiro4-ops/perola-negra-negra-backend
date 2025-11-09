@@ -73,29 +73,23 @@ import plotly.express as px
 # !streamlit run /content/perola_negra_app.py & !npx localtunnel --port 8501
 
 # !apt-get install nodejs npm -y
-!npm install -g localtunnel
+# !npm install -g localtunnel
 
-# !streamlit run /content/perola_negra_app.py &
-!npx localtunnel --port 8501
+# !streamlit run /content/perola_negra_app.py & !npx localtunnel --port 8501
 
-# !streamlit run /content/perola_negra_app.py &
-!npx localtunnel --port 8501
+# !streamlit run /content/perola_negra_app.py & !npx localtunnel --port 8501
 
-# Reinstala o LocalTunnel (garante versão correta)
-!npm install -g localtunnel
+# Reinstala o LocalTunnel (garante versão correta) !npm install -g localtunnel
 
-# Reinicia o Streamlit em segundo plano
-!streamlit run "perola_negra_app.py" &
+# Reinicia o Streamlit em segundo plano !streamlit run "perola_negra_app.py" &
 
-# Cria o novo túnel e mostra a URL
-!npx localtunnel --port 8501
+# Cria o novo túnel e mostra a URL !npx localtunnel --port 8501
 
-# !pip install pyngrok
-from pyngrok import ngrok
+# !pip install pyngrok from pyngrok import ngrok
 
 # !streamlit run "perola_negra_app.py" &
 
 # cria túnel seguro com ngrok
-public_url = ngrok.connect(8501)
-print("URL pública:", public_url)
+# public_url = ngrok.connect(8501)
+# print("URL pública:", public_url)
 
